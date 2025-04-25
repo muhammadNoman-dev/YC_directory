@@ -13,11 +13,17 @@ export default function Home({
     {
       _createdAt: new Date(),
       views: 55,
-      author: { _id: 1, name: "Noman" },
+      author: {
+        _id: 1,
+        name: "Noman",
+        image:
+          "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=",
+      },
       _id: 1,
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.",
-      image: "https://images.unsplash.com/photo-1677631234567",
+      image:
+        "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=",
       category: "Tech",
       title: "Lorem ipsum dolor",
     },
